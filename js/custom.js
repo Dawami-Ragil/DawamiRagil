@@ -30,18 +30,4 @@
     
   })(window.jQuery);
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll('a[href]');
 
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-
-      // Abaikan jika link adalah anchor internal (diawali dengan #)
-      if (!href.startsWith('#') && !href.startsWith('javascript:') && !link.hasAttribute('target')) {
-        link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer');
-      }
-    });
-  });
-</script>
