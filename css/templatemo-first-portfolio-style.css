@@ -462,6 +462,19 @@ strong {
 .navbar-toggler .navbar-toggler-icon::after {
   top: 8px;
 }
+.navbar-custom {
+  background-color: #1abc9c;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-icon {
+  color: #ffffff !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #e0f7f4 !important;
+}
 
 
 /*---------------------------------------
